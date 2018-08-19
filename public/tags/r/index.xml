@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Alessio Passalacqua</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on Alessio Passalacqua</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sat, 18 Aug 2018 18:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R Data Science Resources</title>
+      <link>/project/r_datascience/</link>
+      <pubDate>Sat, 18 Aug 2018 18:00:00 +0200</pubDate>
+      
+      <guid>/project/r_datascience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Data Training</title>
+      <link>/project/r_datatraining/</link>
+      <pubDate>Sat, 18 Aug 2018 17:00:00 +0200</pubDate>
+      
+      <guid>/project/r_datatraining/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

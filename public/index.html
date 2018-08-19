@@ -1,0 +1,1780 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.46" />
+  <meta name="author" content="Alessio Passalacqua">
+
+  
+  
+  
+  
+  <meta name="description" content="Data Scientist &amp; R Trainer">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Alessio Passalacqua">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Alessio Passalacqua">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@https://twitter.com/alessiopassah2o">
+  <meta property="twitter:creator" content="@https://twitter.com/alessiopassah2o">
+  
+  <meta property="og:site_name" content="Alessio Passalacqua">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="Alessio Passalacqua">
+  <meta property="og:description" content="Data Scientist &amp; R Trainer">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2017-10-15T00:00:00&#43;02:00">
+  
+
+  
+
+  
+
+  <title>Alessio Passalacqua</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Alessio Passalacqua</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about" data-target="#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected" data-target="#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts" data-target="#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#talks" data-target="#talks">
+            
+            <span>Talks &amp; Workshops</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects" data-target="#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching" data-target="#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact" data-target="#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<span id="homepage" style="display: none"></span>
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+
+
+
+<section id="hero" class="hero-overlay" style="
+
+background-color: #666;
+
+
+background-image:
+linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+url('/img/headers/bubbles-wide.jpg');
+
+;">
+
+  <div class="container">
+
+    <h1 class="hero-title" itemprop="headline">
+      #rstats
+    </h1>
+
+    
+    <p class="hero-lead">R is not easy ⚠️ , but data science is easier if you learn R 🚀
+<br></p>
+    
+
+    
+    <p><a href="https://alessiopassalacqua.github.io/r-data-training/" class="btn btn-light btn-outline btn-large"><i class="fa fa-graduation-cap"></i> Learn R Now</a></p>
+    
+
+  </div>
+
+</section>
+
+  
+
+  
+  
+  
+  <section id="about" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
+  <div class="col-xs-12 col-md-4">
+    <div id="profile">
+
+      
+      <div class="portrait" style="background-image: url('/img/alessio_passalacqua.jpg');"></div>
+      <meta itemprop="image" content="/img/alessio_passalacqua.jpg">
+      
+
+      <div class="portrait-title">
+        <h2 itemprop="name">Alessio Passalacqua</h2>
+        <h3 itemprop="jobTitle">Data Scientist &amp; R Trainer</h3>
+
+        
+        
+
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          
+          <span itemprop="name">Freelance</span>
+          
+        </h3>
+        
+      </div>
+
+      <link itemprop="url" href="/">
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        <li>
+          <a itemprop="sameAs" href="mailto:alessio.passalacqua@gmail.com" target="_blank" rel="noopener">
+            <i class="fa fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="https://twitter.com/alessiopassah2o" target="_blank" rel="noopener">
+            <i class="fa fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="https://github.com/alessiopassalacqua" target="_blank" rel="noopener">
+            <i class="fa fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="https://www.linkedin.com/in/alessiopassalacqua/" target="_blank" rel="noopener">
+            <i class="fa fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="files/CV_Alessio_Passalacqua.pdf" target="_blank" rel="noopener">
+            <i class="ai ai-cv big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-8" itemprop="description">
+
+    
+
+<h1 id="biography">Biography</h1>
+
+<p>My journey in data science started five years ago during my post-doc. In that period, I was working in manufacturing process and I’ve applied a linear regression to predict the process output from the process parameters. I was impressed by the outcome and the insight we gained. Two years later, after attending specific courses and working on real problems concerning statistical process control, I started a career as data scientist freelance, mainly focusing on Industry 4.0 and Smart Manufacturing, and as R trainer.</p>
+
+<p>Those are my most relevant qualifications and achievements:</p>
+
+<ul>
+<li>BSc and PhD in Chemistry from University of Modena &amp; Reggio Emilia</li>
+<li>Experience in both academic research and industry.</li>
+<li>Implemented data driven strategies to process control and optimization</li>
+<li>Developed automated anomaly detector to increase efficiency and accuracy of manufacturing process</li>
+<li>Data science/visualization consulting using R and Shiny.</li>
+<li>R trainer for Data Science, Data Mining and Data Visualization course</li>
+</ul>
+
+
+    <div class="row">
+
+      
+      <div class="col-sm-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>R/h2o/Spark Machine Learning</li>
+          
+          <li>R/Shiny dashboard</li>
+          
+          <li>R/ggplot Advanced visualization</li>
+          
+          <li>R/markdown reporting</li>
+          
+          <li>R/blogdown website</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-sm-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD in Chemical Science, 2007</p>
+              <p class="institution">University of Modena and Reggio Emilia</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">BSc in Chemistry, 2002</p>
+              <p class="institution">University of Modena and Regggio Emilia</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="publications_selected" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Selected Publications</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+      
+    
+
+    
+    
+      
+        <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+    
+  
+  
+  <div>
+    <a href="/publication/smart-factory/">
+      
+      
+        <img src="/img/smart_factory.png" class="article-banner" itemprop="image">
+      
+    </a>
+  </div>
+  
+
+  <h3 class="article-title" itemprop="name">
+    <a href="/publication/smart-factory/" itemprop="url"> Strategie data-driven per migliorare l’efficienza produttiva</a>
+  </h3>
+
+  <div class="pub-abstract" itemprop="text">
+    
+    Il presente lavoro esplorana le strategie data-driven all’interno del contesto produttivo presentando il modello di Smart Factory e le nuove frontiere dell’efficienza applicati a casi di studio reali e soluzioni industriali. Verrà dimostrato come l’attuale rivoluzione digitale rappresenti un reale valore aggiunto a livello aziendale in quanto consente di ridurre i costi automatizzando i processi e ottimizzando l’efficienza produttiva.
+    
+  </div>
+
+  <div class="pub-authors" itemprop="author">
+    
+    A. Passalacqua, C. Durante, M. Li Vigni
+    
+  </div>
+
+  <div class="pub-publication">
+    
+    In <em>Automazione e Strumentazione</em>,
+    
+    2017
+  </div>
+
+  <div class="pub-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/files/strategie_data-driven_efficienza_produttiva_passalacqua.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/anipla_industry4_ap_strategie_datadriven.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://example.org" target="_blank" rel="noopener">
+  Custom Link
+</a>
+
+
+  </div>
+
+</div>
+
+      
+    
+      
+        <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+    
+  
+  
+  <div>
+    <a href="/publication/doe/">
+      
+      
+        <img src="/img/design_of_experiments.png" class="article-banner" itemprop="image">
+      
+    </a>
+  </div>
+  
+
+  <h3 class="article-title" itemprop="name">
+    <a href="/publication/doe/" itemprop="url">Improvement of color quality and reduction of defects in the ink jet-printing technology for ceramic tiles production: a Design of Experiments study</a>
+  </h3>
+
+  <div class="pub-abstract" itemprop="text">
+    
+    The aim of the present work was to study the effect of different process parameters on the color and defects of tiles produced by ink-jet printing technology. The Design of Experiment approach was used to guarantee a rational planning of the experiments and to ensure objective conclusions through the statistical analysis of the data. Particularly, correlations between the process parameters and the quality of decorated tiles in terms of color and presence of surface defects were extensively investigated. Microstructural analysis was used to explain the results derived by the statistical analysis of the data obtained by the rational plan of the experiments allowing further insight in the structural features and mechanisms correlated to the macroscopic properties of the tiles. The study supplied an efficient way to control the final quality of the decorated tiles satisfying the quality standards required by the market demand.
+    
+  </div>
+
+  <div class="pub-authors" itemprop="author">
+    
+    M. Montorsi, C. Mugoni, A. Passalacqua, et al.
+    
+  </div>
+
+  <div class="pub-publication">
+    
+    In <em>Ceram. Int.</em>,
+    
+    2015
+  </div>
+
+  <div class="pub-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S027288421501799X" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.youtube.com/watch?v=akX9y4t2_0s&amp;feature=youtu.be" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://produzioneperfetta.shinyapps.io/systemcontrol/" target="_blank" rel="noopener">
+  dashboard
+</a>
+
+
+  </div>
+
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="publications" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Recent Publications</h1>
+    
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+      
+    
+
+    
+
+    
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    A. Passalacqua, C. Durante, M. Li Vigni</span>.
+  <a href="/publication/smart-factory/" itemprop="name"> Strategie data-driven per migliorare l’efficienza produttiva</a>.
+  In <em>Automazione e Strumentazione</em>,
+  2017.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/files/strategie_data-driven_efficienza_produttiva_passalacqua.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/anipla_industry4_ap_strategie_datadriven.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://example.org" target="_blank" rel="noopener">
+  Custom Link
+</a>
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    M. Montorsi, C. Mugoni, A. Passalacqua, et al.</span>.
+  <a href="/publication/doe/" itemprop="name">Improvement of color quality and reduction of defects in the ink jet-printing technology for ceramic tiles production: a Design of Experiments study</a>.
+  In <em>Ceram. Int.</em>,
+  2015.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S027288421501799X" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.youtube.com/watch?v=akX9y4t2_0s&amp;feature=youtu.be" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://produzioneperfetta.shinyapps.io/systemcontrol/" target="_blank" rel="noopener">
+  dashboard
+</a>
+
+</p>
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="talks" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Talks and Worshops</h1>
+    
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+
+    
+    
+
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="/talk/example-talk/">Nessun Talk</a></span>
+  <div itemprop="startDate">
+    
+    Jun 1, 2030
+    
+      13:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="/talk/ai_produzione_farete2017/">Intelligenza Artificiale in produzione</a></span>
+  <div itemprop="startDate">
+    
+    Sep 14, 2017
+    
+      17:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            Farete 2017
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="/talk/data_driven_anipla2017/">Strategie Data Driven per l&#39;efficienza produttiva</a></span>
+  <div itemprop="startDate">
+    
+    Jun 7, 2017
+    
+      08:00 AM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            Anipla Industry 4.0 Workshop
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/files/anipla_industry4_passalacqua_strategie_datadriven.pdf">
+  Slides
+</a>
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="/talk/efficienza_produttiva_lmspace2017/">I modelli predittivi che migliorano l&#39;efficienza produttiva</a></span>
+  <div itemprop="startDate">
+    
+    May 7, 2017
+    
+      18:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            Seminario LMSpace 4.0
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/files/ap_modelli%20predittivi_lmspace_Mag2017.pdf">
+  Slides
+</a>
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="/talk/smart_factory2017/">Efficienza, qualità ed innovazione nel cuore delle smart factory</a></span>
+  <div itemprop="startDate">
+    
+    Apr 13, 2017
+    
+      16:30 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            Formazione Ordine di Chimici di Modena
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/files/nuove_frontiere_qualit%C3%A0_efficienza_chimici-modena2017.pdf">
+  Slides
+</a>
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="/talk/efficienza_energetica2017/">Analisi Dati per l’Efficienza Energetica</a></span>
+  <div itemprop="startDate">
+    
+    Feb 14, 2017
+    
+      14:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            Il ruolo del chimico fra Università e Professione
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/files/analisi_dati_efficienza_energetica_chimici-bologna2017.pdf">
+  Slides
+</a>
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="/talk/bigdata2016/">Big Data: From Data To business</a></span>
+  <div itemprop="startDate">
+    
+    Jun 23, 2016
+    
+      14:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            Industrial Technology Efficiency day
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/files/bigdata_techplusday_produzioneperfetta_efficienza2016.pdf">
+  Slides
+</a>
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fa fa-calendar pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="/talk/smart_factory_lmspace2016/">Smart Factory: come trasformare i dati in Innovazione</a></span>
+  <div itemprop="startDate">
+    
+    Feb 24, 2016
+    
+      18:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            Seminario LMSPace Smart Manufactory
+    
+  </div>
+  <div class="talk-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/files/bigdata_techplusday_produzioneperfetta_efficienza2016.pdf">
+  Slides
+</a>
+
+
+
+
+
+
+  </div>
+</div>
+
+      
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="posts" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+
+    <h1>Recent Posts</h1>
+    
+    
+
+  </div>
+  <div class="col-xs-12 col-md-8">
+
+    
+
+    
+      
+
+      
+      
+
+        
+
+        
+        
+
+        
+        
+          
+      
+
+      
+      
+        
+        
+          
+
+<div class="card-simple" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+  
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Alessio Passalacqua">
+  </span>
+  
+
+  <span class="article-date">
+    
+        Last updated on
+    
+    <meta content="2016-04-20 00:00:00 &#43;0200 CEST" itemprop="datePublished">
+    <time datetime="2018-01-13 00:00:00 &#43;0100 CET" itemprop="dateModified">
+      Jan 13, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Alessio Passalacqua">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+
+  
+  
+  <a href="/post/getting-started/">
+    
+    
+      <img src="/img/headers/getting-started.png" class="article-banner" itemprop="image">
+    
+  </a>
+  
+  <h3 class="article-title" itemprop="headline">
+    <a href="/post/getting-started/" itemprop="url">Academic: the website designer for Hugo</a>
+  </h3>
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>Create a beautifully simple website or blog in under 10 minutes.</p>
+    
+  </div>
+  <p class="read-more" itemprop="mainEntityOfPage">
+    <a href="/post/getting-started/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+        
+      
+
+      
+
+        
+
+        
+        
+
+        
+        
+          
+      
+          
+      
+          
+      
+
+      
+      
+        
+        
+          
+
+<div class="card-simple" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+  
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Alessio Passalacqua">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2015-07-23 21:13:14 -0500 -0500" itemprop="datePublished">
+    <time datetime="2015-07-23 21:13:14 -0500 -0500" itemprop="dateModified">
+      Jul 23, 2015
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Alessio Passalacqua">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/r/">R</a>
+    
+  </span>
+  
+  
+
+  
+
+</div>
+
+
+  
+  
+  <h3 class="article-title" itemprop="headline">
+    <a href="/post/2015-07-23-r-rmarkdown/" itemprop="url">Hello R Markdown</a>
+  </h3>
+  <div class="article-style" itemprop="articleBody">
+    
+    R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.
+    
+  </div>
+  <p class="read-more" itemprop="mainEntityOfPage">
+    <a href="/post/2015-07-23-r-rmarkdown/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+        
+      
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="projects" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Projects</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+    
+    <span class="hidden default-project-filter">*</span>
+    
+
+    
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar">
+          <div class="btn-group">
+            
+              
+                
+              
+              <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
+            
+              
+                
+              
+              <a href="#" data-filter=".data-science" class="btn btn-primary btn-large">Data Science</a>
+            
+              
+                
+              
+              <a href="#" data-filter=".r" class="btn btn-primary btn-large">R</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+
+    <div class="row isotope projects-container js-layout-masonry">
+
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item data-science r ebook course tutorial">
+        <div class="card">
+          
+          <a href="https://alessiopassalacqua.github.io/R-DataScience-Resources/index.html" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/r_datascience_resources.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://alessiopassalacqua.github.io/R-DataScience-Resources/index.html" target="_blank">R Data Science Resources</a></h4>
+            <div class="card-desription">
+              <p>All about R: tutorials, ebook, readings, libraries, courses, videos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item r r-training data-science">
+        <div class="card">
+          
+          <a href="https://alessiopassalacqua.github.io/r-data-training/index.html" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/r_data_training.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://alessiopassalacqua.github.io/r-data-training/index.html" target="_blank">R Data Training</a></h4>
+            <div class="card-desription">
+              <p>Questo sito è dedicato a chi vuole iniziare ad usare R ed ha poca esperienza e conoscenza del mondo Data Science. Con tutorials step-by-step e casi concreti cercherò di guidarvi all’interno del mondo Data Science con R.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="teaching" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Teaching</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    <p>I am a teaching instructor for the following courses at private organization:</p>
+
+<ul>
+<li>Data Science in R</li>
+<li>Data Science for Smart Factory</li>
+<li>Data Mining with R</li>
+<li>Advanced Visualization and Reporting in R</li>
+</ul>
+
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="tags" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Tags</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+      
+      
+
+      
+      
+      
+      
+      
+
+      <div id="tag-cloud">
+        
+          
+          
+          
+          <a href="/tags/academic/" style="font-size:0.8rem">Academic</a>
+        
+          
+          
+          
+          <a href="/tags/data-science/" style="font-size:1.8725805810714777rem">Data Science</a>
+        
+          
+          
+          
+          <a href="/tags/r/" style="font-size:1.8725805810714777rem">R</a>
+        
+          
+          
+          
+          <a href="/tags/r-markdown/" style="font-size:0.8rem">R Markdown</a>
+        
+          
+          
+          
+          <a href="/tags/r-training/" style="font-size:0.8rem">R training</a>
+        
+          
+          
+          
+          <a href="/tags/course/" style="font-size:0.8rem">course</a>
+        
+          
+          
+          
+          <a href="/tags/ebook/" style="font-size:0.8rem">ebook</a>
+        
+          
+          
+          
+          <a href="/tags/plot/" style="font-size:0.8rem">plot</a>
+        
+          
+          
+          
+          <a href="/tags/regression/" style="font-size:0.8rem">regression</a>
+        
+          
+          
+          
+          <a href="/tags/tutorial/" style="font-size:0.8rem">tutorial</a>
+        
+      </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="search" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Search</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    <div id="search-box">
+      
+      <input name="q" id="search-query" placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+      
+    </div>
+
+    <div id="search-hits">
+      
+    </div>
+
+  </div>
+</div>
+
+
+
+<script id="search-hit-fuse-template" type="text/x-template">
+  <div class="search-hit" id="summary-{{key}}">
+    <div class="search-hit-content">
+      <div class="search-hit-name">
+        <a href="{{relpermalink}}">{{title}}</a>
+        <div class="article-metadata search-hit-type">{{type}}</div>
+        <p class="search-hit-description">{{snippet}}</p>
+      </div>
+    </div>
+  </div>
+</script>
+
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="contact" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    <ul class="fa-ul" itemscope>
+
+      
+      <li>
+        <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email" itemprop="email"><a href="mailto:alessio.passalacqua[@]gmail.com">alessio.passalacqua[@]gmail.com</a></span>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <i class="fa-li fa fa-skype fa-2x" aria-hidden="true"></i>
+        <span><a href="skype:passah2o?call">passah2o</a></span>
+      </li>
+      
+
+      
+
+      
+      <li>
+        <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
+        <span id="person-address" itemprop="address">via chinnici, 30, 41125 Modena, Italy</span>
+      </li>
+      
+
+      
+
+    </ul>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+
+
+<footer class="site-footer">
+  <div class="container">
+
+    
+    <p class="powered-by">
+      <a href="/privacy/">Privacy Policy</a>
+    </p>
+    
+
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/search.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+
+

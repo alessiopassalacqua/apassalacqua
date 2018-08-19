@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Alessio Passalacqua</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on Alessio Passalacqua</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> Strategie data-driven per migliorare l’efficienza produttiva</title>
+      <link>/publication/smart-factory/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/smart-factory/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>Improvement of color quality and reduction of defects in the ink jet-printing technology for ceramic tiles production: a Design of Experiments study</title>
+      <link>/publication/doe/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/doe/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+  </channel>
+</rss>

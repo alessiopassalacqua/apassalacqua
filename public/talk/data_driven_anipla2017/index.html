@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.46" />
+  <meta name="author" content="Alessio Passalacqua">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Prima la strategia poi la tecnologia. La strategia è la capacità di trasformare un&#39;esigenza in una soluzione. Le aziende hanno bisogno di strategie per implementare le tecnologie. Advanced analytics, machine learning e più in generale i modelli predittivi sono metodologie che abbinate alle tecnologie possono portare ad una soluzione se implementate con la giusta strategia. Le strategie non ci comprano, ma vanno costruite e inventate. Hanno bisogno della cultura dell&#39;innovazione e del coraggio di cambiare. In questo intervento ho discusso gli elementi chiave per costruire una strategia data-driven di successo applicata ai processi produttivi.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/talk/data_driven_anipla2017/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Alessio Passalacqua">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Alessio Passalacqua">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/talk/data_driven_anipla2017/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@https://twitter.com/alessiopassah2o">
+  <meta property="twitter:creator" content="@https://twitter.com/alessiopassah2o">
+  
+  <meta property="og:site_name" content="Alessio Passalacqua">
+  <meta property="og:url" content="/talk/data_driven_anipla2017/">
+  <meta property="og:title" content="Strategie Data Driven per l&#39;efficienza produttiva | Alessio Passalacqua">
+  <meta property="og:description" content="Prima la strategia poi la tecnologia. La strategia è la capacità di trasformare un&#39;esigenza in una soluzione. Le aziende hanno bisogno di strategie per implementare le tecnologie. Advanced analytics, machine learning e più in generale i modelli predittivi sono metodologie che abbinate alle tecnologie possono portare ad una soluzione se implementate con la giusta strategia. Le strategie non ci comprano, ma vanno costruite e inventate. Hanno bisogno della cultura dell&#39;innovazione e del coraggio di cambiare. In questo intervento ho discusso gli elementi chiave per costruire una strategia data-driven di successo applicata ai processi produttivi.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2017-06-07T08:00:00&#43;02:00">
+  
+  <meta property="article:modified_time" content="2017-06-07T08:00:00&#43;02:00">
+  
+
+  
+
+  
+
+  <title>Strategie Data Driven per l&#39;efficienza produttiva | Alessio Passalacqua</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Alessio Passalacqua</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#talks">
+            
+            <span>Talks &amp; Workshops</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="pub" itemscope itemtype="http://schema.org/Event">
+
+  
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Strategie Data Driven per l&#39;efficienza produttiva</h1>
+      <span class="pub-authors" itemprop="author">
+        
+      </span>
+      <span class="pull-right">
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Strategie%20Data%20Driven%20per%20l%27efficienza%20produttiva&amp;url=%2ftalk%2fdata_driven_anipla2017%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2ftalk%2fdata_driven_anipla2017%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2fdata_driven_anipla2017%2f&amp;title=Strategie%20Data%20Driven%20per%20l%27efficienza%20produttiva"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2ftalk%2fdata_driven_anipla2017%2f&amp;title=Strategie%20Data%20Driven%20per%20l%27efficienza%20produttiva"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Strategie%20Data%20Driven%20per%20l%27efficienza%20produttiva&amp;body=%2ftalk%2fdata_driven_anipla2017%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </span>
+    </div>
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract" itemprop="text">Prima la strategia poi la tecnologia. La strategia è la capacità di trasformare un&rsquo;esigenza in una soluzione. Le aziende hanno bisogno di strategie per implementare le tecnologie. Advanced analytics, machine learning e più in generale i modelli predittivi sono metodologie che abbinate alle tecnologie possono portare ad una soluzione se implementate con la giusta strategia. Le strategie non ci comprano, ma vanno costruite e inventate. Hanno bisogno della cultura dell&rsquo;innovazione e del coraggio di cambiare. In questo intervento ho discusso gli elementi chiave per costruire una strategia data-driven di successo applicata ai processi produttivi.</p>
+    
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            
+            Jun 7, 2017
+            <div class="talk-time">
+              
+                08:00 AM
+                
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
+          <div class="col-xs-12 col-sm-9">
+            <a href="http://www.anipla.it/archivio/2017/Industria_4.0/Industria_4.0.html" target="_blank" rel="noopener">
+            Anipla Industry 4.0 Workshop
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
+          <div class="col-xs-12 col-sm-9">Politecnico, Milano</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
+
+
+
+
+<a class="btn btn-primary btn-outline" href="/files/anipla_industry4_passalacqua_strategie_datadriven.pdf">
+  Slides
+</a>
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      <p>I moderni impianti di produzione sono sempre più tecnologici, digitali e interconnessi e
+permettono di ottenere dei flussi costanti di dati, numerosi e variegati. La capacità di poter
+trasformare questo flusso di dati in informazioni utili nel processo decisionale è alla base per
+migliorare la competitività e la crescita aziendale. Il lavoro di estrazione di informazioni utili
+dai dati per risolvere problemi di business, può essere trattato in modo sistematico seguendo
+il processo di analisi dati dotato di fasi piuttosto ben definite.
+Formulare soluzioni basate sul data driven è un investimento strategico di primaria
+importanza nei processi di produzione come già riconosciuto dalle grandi multinazionali.
+L&rsquo;approccio più efficace per applicare questa strategia non inizia con i dati ma con
+l&rsquo;identificazione di un&rsquo;opportunità di business e determinando il modello più adatto per
+migliorare una specifica problematica. Sono molteplici i casi di applicazione dei metodi di
+analisi dati al fine di costruire dei modelli predittivi capaci di risolvere problemi reali.
+Il contributo di questo studio è una relazione completa sullo stato dell&rsquo;arte delle attuali
+strategie basate sul processo data driven e applicate alle diverse aree che coinvolgono l&rsquo;intero ciclo
+produttivo, tra cui il processo, le materie prime, i macchinari e il prodotto finito. Questo
+approccio consente di implementate controlli di processo avanzati integrati nei sistemi di
+produzione al fine di riconoscere anomalie, comprendere se un materiale è idoneo alla
+produzione, le cause di un blocco, e individuare i modi per lavorare in modo più efficiente.
+Le difficoltà di applicare queste strategie nell&rsquo;industria manifatturiera sono molteplici e
+possono essere di:
+1. natura tecnica: uniformare dati, sincronizzare gli step produttivi, trasformare informazioni
+tecniche in dati;
+2. tipo culturale: garantire un impegno costante, reinventare processi e cambiare la struttura
+organizzativa decisionale.</p>
+
+    </div>
+
+    
+
+
+
+
+
+  </div>
+</div>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+
+    
+    <p class="powered-by">
+      <a href="/privacy/">Privacy Policy</a>
+    </p>
+    
+
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        CommonHTML: { linebreaks: { automatic: true } },
+        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
+        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
+        messageStyle: 'none'
+      });
+    </script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/search.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+

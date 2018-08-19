@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks &amp; Workshops on Alessio Passalacqua</title>
+    <link>/talk/</link>
+    <description>Recent content in Talks &amp; Workshops on Alessio Passalacqua</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nessun Talk</title>
+      <link>/talk/example-talk/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/example-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intelligenza Artificiale in produzione</title>
+      <link>/talk/ai_produzione_farete2017/</link>
+      <pubDate>Thu, 14 Sep 2017 17:00:00 +0200</pubDate>
+      
+      <guid>/talk/ai_produzione_farete2017/</guid>
+      <description>Durante il workshop Industry 4.0 e nuove tecnologie IoT: trend globali e nuove opportunità per le imprese, ospite di Qwyddy Technologies, ho tenuto il mio intervento a riguardo l&amp;rsquo;utilizzo dell&amp;rsquo;intelligenza artificiale in produzione. Maggiori informazioni al seguente linkedin post</description>
+    </item>
+    
+    <item>
+      <title>Strategie Data Driven per l&#39;efficienza produttiva</title>
+      <link>/talk/data_driven_anipla2017/</link>
+      <pubDate>Wed, 07 Jun 2017 08:00:00 +0200</pubDate>
+      
+      <guid>/talk/data_driven_anipla2017/</guid>
+      <description>I moderni impianti di produzione sono sempre più tecnologici, digitali e interconnessi e permettono di ottenere dei flussi costanti di dati, numerosi e variegati. La capacità di poter trasformare questo flusso di dati in informazioni utili nel processo decisionale è alla base per migliorare la competitività e la crescita aziendale. Il lavoro di estrazione di informazioni utili dai dati per risolvere problemi di business, può essere trattato in modo sistematico seguendo il processo di analisi dati dotato di fasi piuttosto ben definite.</description>
+    </item>
+    
+    <item>
+      <title>I modelli predittivi che migliorano l&#39;efficienza produttiva</title>
+      <link>/talk/efficienza_produttiva_lmspace2017/</link>
+      <pubDate>Sun, 07 May 2017 18:00:00 +0200</pubDate>
+      
+      <guid>/talk/efficienza_produttiva_lmspace2017/</guid>
+      <description>Un modello predittivo è una rappresentazione approssimata di un sistema reale e capace di fare previsioni future.
+Tipicamente, tale modello include un algoritmo di Machine Learning. Questi algoritmi sono un insieme complesso di funzioni logico-matematiche che consentono di apprendere autonomamente delle regole e di catturare le relazioni esistenti a partire da un dataset di dati storici definito anche come training set.
+L’analisi dei dati è il processo metodologico che mediante step ben definiti è in grado di creare modelli predittivi e di codificarli per sviluppare applicazioni funzionali e risolvere problemi di business.</description>
+    </item>
+    
+    <item>
+      <title>Efficienza, qualità ed innovazione nel cuore delle smart factory</title>
+      <link>/talk/smart_factory2017/</link>
+      <pubDate>Thu, 13 Apr 2017 16:30:00 +0200</pubDate>
+      
+      <guid>/talk/smart_factory2017/</guid>
+      <description>La qualità di un prodotto e l’efficienza di un processo produttivo sono due requisiti prioritari alla base del successo di un’azienda.
+Tuttavia, i diversi successi aziendali possono essere ridotti o addirittura ostacolati da tutte le nuove sfide che quotidianamente le aziende si trovano ad affrontare: aumento dei costi di produzione, autenticità delle materie prime acquistate, risparmi energetici, scarti di produzione, sviluppo di nuovi prodotti che siano in grado di soddisfare i consumatori, sempre più esigenti, aspetti normativi ecc.</description>
+    </item>
+    
+    <item>
+      <title>Analisi Dati per l’Efficienza Energetica</title>
+      <link>/talk/efficienza_energetica2017/</link>
+      <pubDate>Tue, 14 Feb 2017 14:00:00 +0100</pubDate>
+      
+      <guid>/talk/efficienza_energetica2017/</guid>
+      <description>IL VALORE DELL’ANALISI DATI: un esempio applicato sull’efficienza energetica. I dati, in sé, possiedono valore solo in forma potenziale ovvero sono solo un contenitore dell’informazione. La statistica applicata, e più in generale l’analisi dati, fornisce la “tecnologia” necessaria per trasformare i dati in informazione utile per chi deve prendere importanti decisioni aziendali. L’obiettivo ultimo dell’analisi dati è costruire un modello avanzato che utilizza le più recenti metodologie di machine learning e di statistica avanzata per comprendere il presente e prevedere il futuro.</description>
+    </item>
+    
+    <item>
+      <title>Big Data: From Data To business</title>
+      <link>/talk/bigdata2016/</link>
+      <pubDate>Thu, 23 Jun 2016 14:00:00 +0200</pubDate>
+      
+      <guid>/talk/bigdata2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Factory: come trasformare i dati in Innovazione</title>
+      <link>/talk/smart_factory_lmspace2016/</link>
+      <pubDate>Wed, 24 Feb 2016 18:00:00 +0100</pubDate>
+      
+      <guid>/talk/smart_factory_lmspace2016/</guid>
+      <description>Negli ultimi 20 anni, le aziende sono state in grado di ridurre gli sprechi e la variabilità nei loro processi di produzione e di migliorare notevolmente la qualità e le rese del prodotto grazie all’utilizzo dei sistemi Lean e Six Sigma. Tuttavia, in alcuni settori dove i processi di trasformazione delle materie prime giocano un ruolo cruciale, ad esempio nel settore farmaceutico, alimentare e dell’industria chimica in generale, è consuetudine avere variabili di processo intrinsecamente complesse e a volte instabili anche dopo che sono state applicate le tecniche di miglioramento Lean Six Sigma.</description>
+    </item>
+    
+  </channel>
+</rss>
